@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual banking dark/light modes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label  class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#home" class="brand">Dollar</a>
+        <a href="#about">Services</a>
+    </nav>
+
+
+    <!-- Home sec -->
+    <section id="home">
+        <div class="title-group">
+            <h1>Virtual Banking for everyone</h1>
+            <h2>Create your new account now. It is free!</h2>
+                <button class="button">The future is now</button>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="section-2">
+        <h2 class="title">Our Services</h2>
+        <div class="about-container">
+            <div class="image-container">
+                <h2>Investments</h2>
+                <img src="img/undraw_finance_light.svg" alt="finance" id="image1">
+            </div>
+            <div class="image-container">
+                <h2>Reduce expenses</h2>
+                <img src="img/undraw_make_it_rain_light.svg" alt="winners" id="image2">
+            </div>
+            <div class="image-container">
+                <h2>Premium benefits</h2>
+                <img src="img/undraw_winners_light.svg" alt="benefits" id="image3">
+            </div>
+        </div>
+    </section>
+
+        <!-- Footer  -->
+        <footer>
+            <a href="#home">Home</a>
+            <a href="#">Terms of use</a>
+            <a href="#">Privacy</a>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
